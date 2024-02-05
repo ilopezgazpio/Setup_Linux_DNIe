@@ -2,7 +2,7 @@
 
 1. Install  pre-requisites:
 ```
-sudo apt-get install opensc pcscd libnss3-tools pcsc-tools pcscd firefox openjdk-18-jre
+sudo apt-get install opensc pcscd libccid libnss3-tools pcsc-tools firefox openjdk-18-jre
 ```
 
 2. Download DNIe or izenpe software for linux and certificates
