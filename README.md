@@ -38,7 +38,7 @@ sudo dpkg -i AutoFirma_1_8_2.deb
    - "Izenpe"  -> /usr/lib/bit4id/libbit4ipki.so
       - It should look like this:
         <br>   
-        <img src='img/firefox_security_devices.png' width='500'>
+        <img src='img/firefox_security_devices.png' width='600'>
    - If the module/device is not listed, it can be added using "Load":
       - Module name: Izenpe
       - Module filename: /usr/lib/bit4id/libbit4ipki.so
