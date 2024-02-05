@@ -2,7 +2,7 @@
 
 1. Install  pre-requisites:
 ```
-sudo apt-get install opensc pcscd libnss3-tools pcsc-tools pcscd firefox openjdk-18-jre
+sudo apt-get install opensc pcscd libccid libnss3-tools pcsc-tools firefox openjdk-18-jre
 ```
 
 2. Download DNIe or izenpe software for linux and certificates
@@ -19,7 +19,7 @@ e.g. DNIe https://firmaelectronica.gob.es/Home/Descargas.html
 
 3. Install DNIe / izenpe software
 
-Izenpe 
+Izenpe
 ```
 unzip Software_Izenpe_Linux.zip
 sudo dpkg -i  Middleware_izenpe_XXXX
@@ -36,6 +36,12 @@ sudo dpkg -i AutoFirma_1_8_2.deb
 - Firefox
    - Settings --> Privacy and Security --> Security Devices
    - "Izenpe"  -> /usr/lib/bit4id/libbit4ipki.so
+      - It should look like this:
+        <br>   
+        <img src='img/firefox_security_devices.png' width='600'>
+   - If the module/device is not listed, it can be added using "Load":
+      - Module name: Izenpe
+      - Module filename: /usr/lib/bit4id/libbit4ipki.so
 
 
 4. Just enjoy the wonders of digital certificates
